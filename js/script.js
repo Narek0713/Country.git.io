@@ -14,7 +14,7 @@ $(function(){
                h2.attr('class','text');
 
                let div1 = $("<div></div>");
-               let p1 = $('<p></p>').html('Popolation' +' <br>' +  res[i].popolation);
+               let p1 = $('<p></p>').html('Popolation' +' <br>' +  res[i].population);
                let p2 = $('<p></p>').html('Timezones' +' <br>' +  res[i].timezones);
 
                div1.attr('class','div1');
