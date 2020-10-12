@@ -44,7 +44,7 @@ $(function(){
             let count = $('.big').length;
             let limit = 3
             let page = Math.floor(count / limit);
-            console.log(count,limit,page);
+//             console.log(count,limit,page);
             $('.big:gt('+(limit - 1) +')').hide();
             let ul = $('<ul></ul>');
            
